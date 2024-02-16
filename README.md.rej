@@ -1,0 +1,12 @@
+diff a/README.md b/README.md	(rejected hunks)
+@@ -28,8 +28,8 @@
+ npm run build
+ ```
+ 
+-
+-testt
++6
++test
+ 
+ ### Lint with [ESLint](https://eslint.org/)
+ 
