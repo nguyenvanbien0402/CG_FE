@@ -29,7 +29,7 @@ npm run build
 ```
 
 
-testt
+test
 
 ### Lint with [ESLint](https://eslint.org/)
 
