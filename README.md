@@ -30,8 +30,7 @@ npm run build
 kkk
 
 test
-666
-33
+
 ### Lint with [ESLint](https://eslint.org/)
 
 ```sh
