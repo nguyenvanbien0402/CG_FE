@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CG</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+    <script>
+        function deleteCookie(name) {
+            document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+        }
+        function handleF5(e) {
+            if (e.keyCode === 116 &&
+                (
+                    !window.location.href.includes('/record-reg-app-detail') &&
+                    !window.location.href.includes('/document_cancel') &&
+                    !window.location.href.includes('/document/') &&
+                    !window.location.href.includes('/edit') &&
+                    !window.location.href.includes('/record-reg-final/') &&
+                    !window.location.href.includes('/key-list-info')
+                )
+            ) {
+                // , '/document_cancel' , '/document/'
+                deleteCookie("documentPrev");
+                deleteCookie("recordRegAppPrev");
+                deleteCookie("keyPrev");
+                deleteCookie("recordRegFinalPrev");
+            }
+        }
+        document.addEventListener("keydown", handleF5);
+    </script>
+  </body>
+</html>

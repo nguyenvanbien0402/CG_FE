@@ -1,0 +1,498 @@
+{
+  "maxNumber": 999999999999999,
+  "nav": {
+    "home": "Home",
+    "screen": {
+      "longTermNonReturn": "長期未返一覧",
+      "recordCallLog": "架電記録",
+      "recordDelivery": "オーナー宛捺印書類発送記録",
+      "recordDocStamped": "捺印書類受取記録",
+      "recordRegApp": "登記申請記録",
+      "recordRegAppDetail": "登記申請記録詳細",
+      "recordRegAppCancelDetail": "抹消登記申請記録詳細",
+      "secularStagnation": "長期停滞一覧",
+      "recordRegComplete": "納品記録",
+      "waitingCompletion": " 融資完済状況確認",
+      "recordScheduleAppToHgv": "登記申請予定報告一覧",
+      "document": "案件一覧",
+      "recordRegFinal": "完了案件一覧",
+      "master": {
+        "financeType": "FINANCE TYPE LIST",
+        "contractType": "CONTRACT TYPE LIST",
+        "location": "LOCATION LIST",
+        "projectType": "PROJECT TYPE LIST",
+        "user": "USER LIST",
+        "keyEstate": "KEY LIST",
+        "keyEstateAdd": "KEY ADD",
+        "keyEstateEdit": "KEY EDIT",
+        "settingType": "SECURITY RIGHTS LIST",
+        "registrationType": "UPGRADE CONTRACT TYPE LIST",
+        "equity": "EQUITY LIST",
+        "postCode": "POST CODE LIST"
+      }
+    },
+    "about": "About"
+  },
+  "table": {
+    "ordinalNumbers": "#",
+    "option": "Option",
+    "noDataText": "該当するレコードが見つかりません。",
+    "active": "Active"
+  },
+  "tableTitleFunction": {
+    "addNew": "新規追加",
+    "pending": "一時保留",
+    "import": "インポート",
+    "inProgress": "保留解除",
+    "search": "検索",
+    "clearSearch": "削除",
+    "multiUpdate": "アップデート",
+    "downloadTemplate": "テンプレート",
+    "draw": "グラフ作成",
+    "export": "エクスポート",
+    "exportMultiple": "複数エクスポート"
+  },
+  "about": {
+    "header": "About us"
+  },
+  "changePassword": {
+    "currentPassword": "現在のパスワード",
+    "newPassword": "新しいパスワード",
+    "repeatPassword": "パスワード再入力"
+  },
+  "btn": {
+    "save": "保存",
+    "delete": "",
+    "cancel": "キャンセル",
+    "back": "戻る",
+    "close": "キャンセル",
+    "apply": "確定",
+    "export": "エクスポート",
+    "edit":"アップデート"
+  },
+  "dialogName": {
+    "update": "案件更新",
+    "multiUpdate": "【複数】案件更新",
+    "delete": "Delete",
+    "documentDetail": "移転詳細",
+    "documentEdit": "移転入力",
+    "confirm": "確認",
+    "recordRegAppRegisDetail": "登記申請記録詳細",
+    "recordRegAppCancelDetail": "抹消登記申請記録詳細",
+    "fileUploadError": "ファイル障害",
+    "documentCancelDetail": "抹消詳細",
+    "documentCancelEdit": "抹消入力",
+    "exportExcel": "輸出",
+    "changePassword": "パスワード変更",
+    "downloadDoc": "輸出",
+    "exportMultiple": "複数エクスポート",
+    "recordRegFinalDetail": "完了案件詳細",
+    "recordRegApp": {
+      "singleRegisUpdate": "案件更新_移転",
+      "multiRegisUpdate": "【複数】案件更新_移転",
+      "singleCancelUpdate": "案件更新_抹消",
+      "multiCancelUpdate": "【複数】案件更新_抹消"
+    },
+    "master": {
+      "postCode": {
+        "edit": "POST CODE EDIT",
+        "delete": "POST CODE DELETE"
+      },
+      "financeType": {
+        "add": "FINANCE TYPE ADD",
+        "edit": "FINANCE TYPE EDIT",
+        "delete": "FINANCE TYPE DELETE"
+      },
+      "contractType": {
+        "add": "CONTRACT TYPE ADD",
+        "edit": "CONTRACT TYPE EDIT",
+        "delete": "CONTRACT TYPE DELETE"
+      },
+      "location": {
+        "add": "LOCATION ADD",
+        "edit": "LOCATION EDIT",
+        "delete": "LOCATION DELETE"
+      },
+      "projectType": {
+        "add": "PROJECT TYPE ADD",
+        "edit": "PROJECT TYPE EDIT",
+        "delete": "PROJECT TYPE DELETE"
+      },
+      "user": {
+        "add": "USER ADD",
+        "edit": "USER EDIT",
+        "delete": "USER DELETE"
+      },
+      "settingType": {
+        "add": "SECURITY RIGHTS ADD",
+        "edit": "SECURITY RIGHTS EDIT",
+        "delete": "SECURITY RIGHTS DELETE"
+      },
+      "registrationType": {
+        "add": "UPGRADE CONTRACT TYPE ADD",
+        "edit": "UPGRADE CONTRACT TYPE EDIT",
+        "delete": "UPGRADE CONTRACT TYPE DELETE"
+      },
+      "keyEstate": {
+        "delete": "KEY DELETE"
+      },
+      "equity": {
+        "add": "EQUITY ADD",
+        "edit": "EQUITY EDIT",
+        "delete": "EQUITY DELETE"
+      }
+    }
+  },
+  "dialogContent": {
+    "delete": "本当に削除しますか？一度削除したものは元に戻せません。",
+    "confirmDeleteDocument": "選択したプロジェクトを削除しますか？",
+    "confirmPending": "案件を一時保留しますか？",
+    "confirmInprogress": "案件の一時保留を解除しますか？",
+    "confirmForward": "ステータスを変更しますか？この操作後はステータスを戻せません。",
+    "resetPassword": "パスワードを再設定します。よろしいですか。"
+  },
+  "keyEstate": {
+    "realEstateDisplayKey": "不動産表示Key",
+    "locationName": "場所",
+    "floorNumber": "階数",
+    "jurisdiction": "管轄",
+    "denominator": "分母",
+    "hotelName": "ホテル名",
+    "propertyDisplay": "物件表示",
+    "associationDisplay": "協会表示",
+    "stokeNumber": "筆数",
+    "plotNumber": "土地筆数",
+    "buildingNumber": "建物筆数",
+    "twoUnitPropertyDisplay": "２口以上物件表示",
+    "twoUnitLoanRegistrationDisplay": "ローン2口目前登記表示",
+    "threeUnitLoanRegistrationDisplay": "ローン3口目前登記表示",
+    "fourUnitLoanRegistrationDisplay": "ローン4口目前登記表示",
+    "propertyDisplay2": "物件表示2",
+    "twoUnitPropertyDisplay2": "２口以上物件表示2",
+    "twoUnitLoanRegistrationDisplay2": "ローン2口目前登記表示2",
+    "threeUnitLoanRegistrationDisplay2": "ローン3口目前登記表示2",
+    "fourUnitLoanRegistrationDisplay2": "ローン4口目前登記表示2",
+    "realEstateDisplay1": "不動産表示1",
+    "realEstateDisplay2": "不動産表示2",
+    "realEstateDisplay3": "不動産表示3",
+    "realEstateDisplay4": "不動産表示4",
+    "realEstateDisplay5": "不動産表示5",
+    "realEstateDisplay6": "不動産表示6",
+    "realEstateDisplay7": "不動産表示7",
+    "jurisdictionE": "管轄E",
+    "realEstateDisplay1e": "不動産表示1E",
+    "realEstateDisplay2e": "不動産表示2E",
+    "realEstateDisplay3e": "不動産表示3E",
+    "realEstateDisplay4e": "不動産表示4E",
+    "realEstateDisplay5e": "不動産表示5E",
+    "realEstateDisplay6e": "不動産表示6E",
+    "realEstateDisplay7e": "不動産表示7E",
+    "signature": "署名欄"
+  },
+  "registrationType": {
+    "registrationTypeName": "名前",
+    "deliveryReceiptWithCertificate": "送付状印鑑証明",
+    "residentRegistrationDoc": "送付状住民票",
+    "residentRegistrationDocByPost": "送付状住民票文",
+    "appendixRegistration": "送付状最下段",
+    "returnDocument": "返却書類住民票",
+    "appendixCancellation": "抹消有送付状最下段",
+    "identificationMark": "送付識別表示",
+    "existenceLoan": "ローン有無",
+    "sealCertificate": "印鑑証明書",
+    "checkbox": "チェックボックス",
+    "residentRegisterRegistration": "住民表",
+    "residentRegistrationDetails": "住民票内容",
+    "aboutSignature": "署名について"
+  },
+  "settingType": {
+    "settingType": "設定種類",
+    "delegatedDuty": "委任事項",
+    "delegatedDutyExample": "委任事項（記入例）",
+    "purposeOfRegistration": "登記の目的",
+    "reasonOfRegistration": "登記の原因",
+    "stakeholderStatement": "当事者表示",
+    "causeContract1": "原因契約1",
+    "receivableAmount": "債権額表示",
+    "causeContract2": "原因契約2",
+    "causeContract3": "原因契約3",
+    "causeContract4": "原因契約4",
+    "secondLoanForSpeculative": "ローン2口目以上投機目的",
+    "securityInterest": "担保権"
+  },
+  "equity": {
+    "equityCode": "入力用持分コード",
+    "locationId": "コード用場所",
+    "locationName": "コード用場所",
+    "equity": "持分",
+    "managementFee": "管理費",
+    "partialTransferTax": "一部移転登録免許税",
+    "managementFeeTax": "管理費登録免許税",
+    "adminFeeKanjiDisplay": "管理費漢字表示",
+    "managementFeeTaxKanji": "管理費登免税漢字"
+  },
+  "postCode": {
+    "postCode": "Post Code",
+    "city": "City",
+    "district": "District",
+    "street": "Street"
+  },
+  "projectType": {
+    "projectTypeName": "案件種類",
+    "powerOfAttorneyCancel": "抹消あり委任状",
+    "numberDelStroke": "抹消筆数",
+    "identificationText": "送付識別文"
+  },
+  "contractType": {
+    "name": "名前"
+  },
+  "financeType": {
+    "name": "名前"
+  },
+  "locationType": {
+    "locationId": "コード",
+    "name": "名前"
+  },
+  "user": {
+    "userName": "アカウント",
+    "fullName": "名前",
+    "password": "パスワード",
+    "confirmPassword": "パスワード再入力",
+    "role": "役割"
+  },
+  "longTermNonReturn": {
+    "projectNo": "Project No",
+    "fullName": "名前（英）",
+    "customerNameJp": "名前（日）",
+    "returnLp": "返却LP",
+    "requestDate": "依頼日",
+    "contactDate": "電話連絡日",
+    "deliveryDate": "書類発送日",
+    "receiptDate": "書類受領日",
+    "regDate": "登記申請日"
+  },
+  "secularStagnation": {
+    "projectNo": "Project No",
+    "fullName": "名前（英）",
+    "customerNameJp": "名前（日）",
+    "returnLp": "返却LP",
+    "requestDate": "依頼日",
+    "contactDate": "電話連絡日",
+    "deliveryDate": "書類発送日",
+    "receiptDate": "書類受領日",
+    "regDate": "登記申請日"
+  },
+  "recordCallLog": {
+    "projectNo": "Project No",
+    "customerNameJp": "名前(日)",
+    "fullName": "名前(英)",
+    "firstTel": "First Tel",
+    "contactDate": "電話連絡日",
+    "pic": "電話した人",
+    "estShipDocDate": "書類発送予定日",
+    "remarks": "備考",
+    "receiptDate": "書類受領日",
+    "status": "スターテス"
+  },
+  "recordDelivery": {
+    "projectNo": "Project No",
+    "deliveryDate": "書類発送日",
+    "deliveryCode": "発送number",
+    "returnLp": "返送LP",
+    "purchaser": "purchaser",
+    "pic": "電話した人",
+    "status": "スターテス",
+    "remarks": "備考"
+  },
+  "recordDocStamped": {
+    "projectNo": "Project No",
+    "receiptDate": "書類受領日",
+    "name": "名前",
+    "address": "初期住所データ",
+    "status": "スターテス",
+    "remark": "備考"
+  },
+  "recordRegApp": {
+    "status": "スターテス",
+    "category": "抹消有無",
+    "projectNo": "Project No",
+    "customerNameJp": "名前(日)",
+    "regDate": "登記申請日",
+    "transferNum1": "移転受番1",
+    "lSettingNum1": "L設定受番1",
+    "pipeTransferNum1": "管設定受番1",
+    "transferNum2": "移転受番2",
+    "lSettingNum2": "L設定受番2",
+    "pipeTransferNum2": "管設定受番2",
+    "transferNum3": "移転受番3",
+    "lSettingNum3": "L設定受番3",
+    "pipeTransferNum3": "管設定受番3",
+    "transferNum4": "移転受番4",
+    "lSettingNum4": "L設定受番4",
+    "pipeTransferNum4": "管設定受番4",
+    "cancelRegDate": "抹消登記申請日",
+    "cancelNum1": "抹消受番1",
+    "cancelNum2": "抹消受番2",
+    "cancelNum3": "抹消受番3",
+    "cancelNum4": "抹消受番4"
+  },
+  "recordRegComplete": {
+    "projectNo": "Project No",
+    "customerNameJp": "名前(日)",
+    "regDate": "登記申請日",
+    "ownerReturnDate": "オーナー書類返送日",
+    "hgvReturnDate": "HGV宛納品日",
+    "returnNumber": " 郵便追跡番号",
+    "ownerArrivalDate": "オーナー書類到着日",
+    "status": "スターテス",
+    "oldStatus": "旧ステータス",
+    "remark": "備考"
+  },
+  "waitingCompletion": {
+    "projectNo": "Project No",
+    "fullName": "名前（英）",
+    "customerNameJp": "名前（日）",
+    "locationName": "場所",
+    "datePaymentEmail": "完済確認メール到着日",
+    "memorandumReceiptDate": "覚書受領日",
+    "regDate": "申請日",
+    "status": "スターテス"
+  },
+  "recordScheduleAppToHgv": {
+    "projectNo": "Project No",
+    "returnDate": "登記申請予定日",
+    "locationName": "抹消不動産",
+    "cancelRegDate": "抹消申請日",
+    "fullName": "お客様（アルファベット）",
+    "loanAvailable": "ローン有無",
+    "upgrade": "アップグレード",
+    "deletedDisplay": "抹消表示",
+    "groupHgv": "Group",
+    "boxNumber": "boxnumber",
+    "customerNameJp": "名前（日）",
+    "voidingFloorSpace1": "抹消階数1",
+    "voidingFloorSpace2": "抹消階数2",
+    "voidingFloorSpace3": "抹消階数3",
+    "voidingFloorSpace4": "抹消階数4",
+    "memorandumReceiptDate": "覚書確認日",
+    "memorandumConfirm": "覚書確認",
+    "status": "スターテス",
+    "exportExcel": "ファイルを選ぶ",
+    "upgradeFrom": "原契約番号"
+  },
+  "datePicker": {
+    "select": "保存",
+    "cancel": "キャンセル"
+  },
+  "document": {
+    "projectNo": "Project No",
+    "customerNameEn": "名前(英)",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "customerNameJp": "名前(日)",
+    "contractCusName": "Contract Customer Name",
+    "remarks": "備考",
+    "status": "スターテス",
+    "upgradeFrom": "原契約番号",
+    "contractType": "Contract Type",
+    "financeType": "ローン有無",
+    "location": "場所",
+    "inventoryPhase": "Inventory Phase",
+    "address": "住所",
+    "zipCode": "郵便番号",
+    "firstTel": "First Tel",
+    "secondTel": "Second Tel",
+    "thirdTel": "Third Tel",
+    "email": "メールアドレス",
+    "projectType": "案件種類",
+    "requestDate": "依頼日",
+    "words": "口数",
+    "acquiredEquity1": "取得持分1",
+    "acquiredEquity2": "取得持分2",
+    "acquiredEquity3": "取得持分3",
+    "acquiredEquity4": "取得持分4",
+    "estDeliveryDate": "クロージング日",
+    "purchaseFloor1": "購入階1",
+    "purchaseFloor2": "購入階2",
+    "purchaseFloor3": "購入階3",
+    "purchaseFloor4": "購入階4",
+    "representativeName": "法人代表名",
+    "loanLimit": "ローン極度額",
+    "mortgageType": "抵当権種類",
+    "boxNumber": "BOXNUMBER",
+    "prepareFormPic": "申請書作成担当者",
+    "prepareFormDate": "申請書作成日",
+    "primaryCheckFormPic": "申請書作成一次チェック担当者",
+    "primaryCheckFormDate": "一次チェック対応日",
+    "purchaser": "Purchaser",
+    "country": "Country",
+    "datePaymentEmail": "完済確認メール到着日",
+    "memorandumReceiptDate": "覚書受領日",
+    "addressEn": "Address 1",
+    "regDate":"登記申請日",
+    "search": {
+      "projectNo": "Project No",
+      "status": "スターテス",
+      "name": "名前",
+      "tel": "Tel",
+      "location": "場所",
+      "prepareFormDate": "申請書作成日",
+      "projectType": "案件種類",
+      "representativeName": "法人代表名",
+      "requestDate": "依頼日",
+      "category": "抹消有無",
+      "regDate":"登記申請日",
+      "email": "メールアドレス"
+    },
+    "cancel": {
+      "projectNo": "Project No",
+      "projectNoRef": "原契約番号",
+      "customerNameEn": "抽出原契約名（英）",
+      "customerNameJp": "抽出原契約名（日）",
+      "location": "抹消不動産",
+      "terminationDate": "解除原因日",
+      "initialContractDate": "原契約日",
+      "cancelRegistrationDate": "抹消する登記受日",
+      "voidingFloorSpace1": "抹消階数1",
+      "cancelOwnershipStake1": "抹消持分1",
+      "cancelRegistrationNumber1": "抹消する登記受番1",
+      "voidingFloorSpace2": "抹消階数2",
+      "cancelOwnershipStake2": "抹消持分2",
+      "cancelRegistrationNumber2": "抹消する登記受番2",
+      "voidingFloorSpace3": "抹消階数3",
+      "cancelOwnershipStake3": "抹消持分3",
+      "cancelRegistrationNumber3": "抹消する登記受番3",
+      "voidingFloorSpace4": "抹消階数4",
+      "cancelOwnershipStake4": "抹消持分4",
+      "cancelRegistrationNumber4": "抹消する登記受番4"
+    },
+    "downloadDoc": "ファイルを選ぶ",
+    "requestDateExport": "登記申請日",
+    "locationName": "場所"
+  },
+  "chart": {
+    "callStatus": {
+      "dateDraw": "架電日",
+      "dateDraw1": "書類受領日",
+      "pic": "担当者"
+    }
+  },
+  "warning": {
+    "noSelected": "案件を選択してください。",
+    "projectNoToLong": "ProjectNoは100件以上を選択することができません。"
+  },
+  "file": {
+    "templateInvalid": "ファイルがインポートできません。データを確認してください。",
+    "dataEmpty": "ファイルがインポートできません。データを確認してください。"
+  },
+  "errorMessage": {
+    "fileBiggerThan10Mb": "ファイルの容量が10MBを超えていました。",
+    "notSameLocation": "レコードは場所を持っていません。",
+    "notSameRegDate": "レコードは登記申請日を持っていません。",
+    "notSameCancelRegDate": "レコードは抹消登記申請日を持っていません。",
+    "sameYear": "「From」、「To」の値が同じ年にしてください。",
+    "pleaseSelectExport": "テンプレートを選択してください。",
+    "pleaseSelectProject": "案件を選択してください。",
+    "multipleCategory": "複数の抹消有無が存在しています"
+  }
+}

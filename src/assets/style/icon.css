@@ -1,0 +1,70 @@
+.mdi.mdi-payment-day {
+    background-image: url("./../assets/payment-day.png");
+    background-size: 100%;
+    width: 24px;
+    height: 24px;
+}
+.mdi.mdi-sms {
+    background-image: url("./../assets/sms-1.png");
+    background-size: 100%;
+    width: 20px !important;
+    height: 20px !important;
+}
+.mdi.mdi-thief {
+    background-image: url("./../assets/thief.png");
+    background-size: 100%;
+    width: 24px !important;
+    height: 24px !important;
+}
+.mdi.mdi-vertical {
+    background-size: 100%;
+    width: 24px !important;
+    height: 24px !important;
+}
+.mdi.mdi-vertical.primary--text {
+    background-image: url("./../assets/vertical-primary.png");
+}
+.mdi.mdi-vertical.black--text {
+    background-image: url("./../assets/vertical-black.png");
+}
+.mi.mi-coins {
+    background-position: -96px -48px;
+}
+.mi.mi-anchor {
+    background-position: -48px 0px;
+}
+.mi.mi-cross {
+    background-position: -496px -48px;
+}
+.mi.mi-alarm {
+    background-position: -32px 0px;
+}
+.mi.mi-nuclear {
+    background-position: -480px -128px;
+}
+.mi.mi-bell {
+    background-position: -384px -16px;
+}
+.mi.mi-report {
+    background-position: -64px -176px;
+}
+.mi.mi-lock-unlock {
+    background-position: -80px -128px;
+}
+.mi.mi-key {
+    background-position: -240px -112px;
+}
+.mi.mi-heart {
+    background-position: -496px -96px;
+}
+.mi.mi-comment {
+    background-position: -144px -48px;
+}
+.mi.mi-bookmark {
+    background-position: -48px -32px;
+}
+[class^="mi-"], [class*=" mi-"] {
+    width: 16px !important;
+    height: 16px !important;
+    background-image: url(../assets/sprite.png);
+}
