@@ -36,4 +36,6 @@ test
 ```sh
 npm run lint
 ```
-3399
+3344
+22
+66
