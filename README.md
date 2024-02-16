@@ -36,7 +36,4 @@ test
 ```sh
 npm run lint
 ```
-3344
-22
-66
-77
+
